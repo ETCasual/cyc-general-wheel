@@ -29,14 +29,14 @@ body {
 }
 
 #app {
-  background: linear-gradient(
-    240deg,
-    $color-red-step1 0.13%,
-    $color-red-step2 26.19%,
-    $color-red-step3 52.6%,
-    $color-red-step4 79.08%,
-    $color-red-step5 100%
-  );
+  // background: linear-gradient(
+  //   240deg,
+  //   $color-red-step1 0.13%,
+  //   $color-red-step2 26.19%,
+  //   $color-red-step3 52.6%,
+  //   $color-red-step4 79.08%,
+  //   $color-red-step5 100%
+  // );
   color: $color-text-light;
   padding: 0 3.125rem;
   min-height: 100%;
@@ -90,6 +90,16 @@ body {
   max-width: $screen-xl;
   flex: 1 1 0;
   min-height: min-content;
+}
+
+.bg-img {
+  max-width: 4000px;
+  min-width: 4000px;
+  min-height: 1000px;
+  max-height: 1000px;
+  position: fixed;
+  top: 0 !important;
+  left: 0 !important;
 }
 
 .footer {
